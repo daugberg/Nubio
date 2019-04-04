@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Se hvad der vises nu i bio - NuBio.dk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Hvad kører i biografen lige nu? Få inspiration her.">
+    <meta name="author" content="NUBIO.dk">
+    <meta name="theme-color" content="#1e1e1e" />
+    <link rel="shortcut icon" type="image/png" href="img/nu-favicon.png" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <section class="message">Beklager, men din browser understøtter ikke CSS - Grid! Brugt venligst dette site i en browser, som understøtter det. (f.eks. Google Chrome, Firefox eller Safari)</section>
+    <header class="topbar">
+        <a href="#forside" onclick="showPage('forside')"><img src="https://rysholt.com/wordpress/wp-content/uploads/2019/02/nubio-groen-logo.png"></a>
+
+    </header>
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom"></div>
+
+    <div class='example-one'>
+        <header class='example-one-header'>
+            <span class="genre"><a onclick="showPage('genrer')" href="#genrer">Vælg genre</a></span>
+            <nav class='vertical-align-middle scroll'>
+                <span class="nav-item" onclick="showAllMovies()">Vis Alle</span>
+            </nav>
+        </header>
+    </div>
+
+
+    <nav id="menu" class="tabbar"></nav>
+
+    <main id="pages"></main>
+
+</body>
+
+</html>
