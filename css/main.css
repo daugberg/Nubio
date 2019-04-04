@@ -315,11 +315,12 @@ h5 {
     text-transform: capitalize;
     font-size: 1.4em;
     font-weight: 400;
+    margin-top: .2em;
 }
 
 .back h5 {
     margin-top: -1.4em;
-    margin-bottom: -.4em;
+    margin-bottom: -.3em;
     color: #7b7b7b;
     font-weight: 100;
 
@@ -328,11 +329,11 @@ h5 {
 .backbutt h4 {
     background: rgb(208, 208, 208);
     color: black;
-    padding: .42em;
+    padding: .5em;
     text-align: center;
     margin: 0 auto;
     border-top: solid white 2px;
-    font-weight: 200;
+    font-weight: 500;
     font-size: .9em;
 }
 
